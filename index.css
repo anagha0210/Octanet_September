@@ -1,0 +1,123 @@
+h2,h4{
+    text-align: right;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;   
+}
+.headinglogo::first-letter{
+    color:blue;
+}
+.navigation{
+    display:flex;
+    justify-content: space-around;
+    margin:-8px -8px;
+    flex-direction:row;
+    align-items: center;
+    width:100lvw;
+    background-image:linear-gradient(to top,rgb(164, 152, 216),skyblue,lightblue,rgb(206, 230, 238),white);
+}
+.logo{
+    display:flex;
+    width:auto;
+    margin-left:20px;
+    font-size:x-large;
+}
+.navbar{  
+    display:flex;
+    flex-direction: row;
+    width:70%;
+    height:100px;
+    justify-content:center;
+    align-items: center;  
+}
+.navitems{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    flex-direction:row;
+    justify-content:space-evenly;
+    padding-left:-10px;
+}
+.item{
+    font-size:larger;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+.searchbar{
+    border-radius:4px;
+    color:aliceblue;
+    border:2px solid rgb(255, 255, 255);
+    width:230px;
+    height:40px;
+    margin-top:1px;
+    margin-left:40px;
+}
+.searchbar:focus{
+    border:2px solid white;
+}
+.searchbutton{
+    border-radius:4px;
+    color:white;
+    background-color: rgb(54, 125, 211);
+    border-color:rgb(54, 125, 211);
+    width:100px;
+    height:44px;
+    align-self: baseline;
+    margin-left:6px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:larger;
+    font-weight: 600; 
+}
+.body1{ 
+    background-image: url("https://images.wallpaperscraft.com/image/single/city_river_buildings_166342_1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    margin-top:-21px;
+    margin-left:-8px;
+    height:100vh;
+}
+.insidebody{
+    display:inline-block;
+}
+.quote{
+    margin-top:60px;
+    font-size:50px;
+    margin-left:160px;
+}
+.headline{
+    display:flex;
+    justify-content: center;
+   
+    margin-top:-80px;
+}
+.main{
+    font-size:90px;
+    margin-left:40px;
+    display:inline-block;
+    
+}
+#change{
+    font-size:90px;
+    margin-left:-10px;
+}
+.slogan{
+    font-size:25px;
+    margin-left:200px;
+    margin-top:-20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: expanded;
+}
+.book{
+    border-radius:3px;
+    width:auto;
+    height:45px;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left:400px;
+}
+
+
